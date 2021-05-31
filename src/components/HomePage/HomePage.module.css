@@ -1,0 +1,27 @@
+.homePage{
+    text-align:center;
+}
+
+.homePage h1{
+    color: #4a20aa;
+    font-size:45px;
+    padding-top: 25px;
+}
+
+.homePage p{
+    color: #4a20aa;
+    padding: 20px;
+    font-size:15px;
+    line-height: 40px;
+}
+@media only screen and (max-width: 1100px){
+    .homePage{
+        font-size:25px;
+        padding-top: 15px;
+    }
+    .homePage p{
+        padding: 20px;
+        font-size:15px;
+        line-height:25px;
+    }
+}

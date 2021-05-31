@@ -1,0 +1,28 @@
+.header{
+   padding : 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position: sticky;
+    background-color: #fff;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}
+
+.header__logo{
+    color: rgb(239, 46, 65);
+}
+.header__right{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width:10vw;
+
+}
+
+.header__icons{
+    color: #4a20aa;
+    margin: 0 5px;
+    
+}
